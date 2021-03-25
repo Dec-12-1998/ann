@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.header{
+    background-color: blue;
+}
+.header:hover{
+    background-color: chocolate;
+}
+.rower:nth-child(even){
+    background-color: cornsilk;
+}
+.rower:hover:nth-child(even){
+    background-color: darkcyan;
+}
+.rower:hover:nth-child(odd){
+    background-color: darkblue;
+}
